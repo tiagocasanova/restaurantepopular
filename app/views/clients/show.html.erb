@@ -1,0 +1,17 @@
+<fieldset >
+	<ol>					
+		<li>
+			<label>Nome:</label><br>
+			<%= @client.name %>
+		</li>
+		<li>
+			<label>Cpf:</label> <br>
+			<%= @client.cpf %>
+		</li>
+		<li>
+			<label>Profissão:</label> <br>
+			<%= @client.profession %>
+		</li>		
+	</ol>
+</fieldset>
+<%= link_to 'Back', clients_path %>

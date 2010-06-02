@@ -1,0 +1,18 @@
+</fieldset>
+	<ol>
+		<li>
+			<label>Nome</label>
+			<%= form.text_field :name %>
+		</li>
+		<li>
+			<label>Cpf</label>
+			<%= form.text_field :cpf %>
+		</li>
+		<li>
+			<label>Profissão</label>
+			<%= form.text_field :profession %>
+		</li>		
+	</ol>
+</fieldset>
+
+<%= link_to 'Cancelar', clients_url %> | <%= form.submit 'Salvar' %>
